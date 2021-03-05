@@ -3,10 +3,10 @@
 
 - **basic compile :** <br/>
 <br/>`g++ <source file>`<br/>
-Perintah ini akan menghasilkan file executable dengan ekstensi yang disesuaikan dengan plafom yang digunakan sebagai contoh `a.out`jika menggunkan linux linux atau `a.exe`jika menggunkan windows. `<source file>` disi dengan alamat file yang akan dicompile.
+Perintah ini akan menghasilkan file executable dengan ekstensi yang disesuaikan dengan plafom yang digunakan sebagai contoh `a.out` jika menggunkan linux linux atau `a.exe` jika menggunkan windows. `<source file>` disi dengan alamat file yang akan dicompile.
 
 
-- **compile dengan spesifik executable extension** <br/>
+**compile dengan spesifik executable extension** <br/>
 `g++ <source file> -o <souce build>`
 Perintah ini akan menghasilkan file executable yang spesifik sesuai dengan permintan, `<souce build>` diisi dengan alamat tempat file hasil compile akan ditaruh diikuti dengan nama file dan ekstensinya, sebagai contoh `g++ dummy.cpp -o dummy.out` perintah ini kana menghasilkan file executable dengan nama `dummy` dan ekstensi `*.out`.
 
