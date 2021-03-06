@@ -2,7 +2,7 @@
 
 
 #### basic compile: 
-`g++ <source file>`
+```g++ <source file>```
 Perintah ini akan menghasilkan file executable dengan ekstensi yang disesuaikan dengan plafom yang digunakan sebagai contoh `a.out` jika menggunkan linux linux atau `a.exe` jika menggunkan windows. `<source file>` disi dengan alamat file yang akan dicompile.
 
 #### compile dengan spesifik executable extension:
