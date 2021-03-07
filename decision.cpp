@@ -8,9 +8,9 @@ int main(int carg, char** varg) {
     std::cout << "input some number : ";
     std::cin >> number;
 
-
+    // <expresion> ? <if value of expresion is true, this block code  will execute> : <if value of expresion is false, this block code will execute>;
     number % 2 == 0 ? std::cout << "Nomor Genap" << std::endl : std::cout << "Nomor Ganjil" << std::endl;
-    
+  
     if (number >= 0) {
         std::cout << "positif" << std::endl;
         type = 1;
